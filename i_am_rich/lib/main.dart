@@ -11,8 +11,7 @@ void main() {
         ),
         body: Center(
           child: Image(
-            image: NetworkImage(
-                'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQqkhiXq7Sr3eNigvG6GhbKtZP8SlUZJHqgEBecCTHtQZ3eDVI1'),
+            image: AssetImage('images/diamond.png'),
           ),
         ),
         backgroundColor: Colors.blueGrey,
